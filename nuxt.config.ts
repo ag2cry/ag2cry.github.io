@@ -20,7 +20,8 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "ja",
       }
-    }
+    },
+    cdnURL: '/<repository>/'
   },
 
   modules: ["@pinia/nuxt"],
