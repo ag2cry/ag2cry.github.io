@@ -21,7 +21,6 @@ export default defineNuxtConfig({
         lang: "ja",
       }
     },
-    cdnURL: '/<repository>/'
   },
 
   modules: ["@pinia/nuxt"],
