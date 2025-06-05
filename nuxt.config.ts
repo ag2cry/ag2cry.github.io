@@ -4,26 +4,26 @@ export default defineNuxtConfig({
   srcDir: "src",
 
   app: {
-    baseURL: "",
+    baseURL: "/myroom/",
+    buildAssetsDir: "/_nuxt/",
     head: {
       title: "shio's room",
       meta: [
         { charset: "utf-8" },
         {
           name: "viewport",
-          content: "width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,viewport-fit=cover,user-scalable=0"
-        }
+          content:
+            "width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,viewport-fit=cover,user-scalable=0",
+        },
       ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
       htmlAttrs: {
         lang: "ja",
-      }
+      },
     },
   },
 
   modules: ["@pinia/nuxt"],
   devtools: { enabled: true },
-  compatibilityDate: "2024-10-26"
-})
+  compatibilityDate: "2024-10-26",
+});

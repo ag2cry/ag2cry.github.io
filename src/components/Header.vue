@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img src="../assets/image/29367214_m.jpg"/>
+    <img src="~/assets/image/29367214_m.jpg"/>
     <h1>Shio's room</h1>
   </div>
 </template>
